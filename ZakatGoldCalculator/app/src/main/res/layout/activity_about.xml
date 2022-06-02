@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="false"
+    android:background="#75DFD7"
+    android:textAlignment="gravity"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="277dp"
+        android:layout_height="158dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/goldbarlogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="190dp"
+        android:autoText="false"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/about_us"
+        android:textColor="#000000"
+        android:textColorLink="#FF0000"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="33dp"
+        android:text="@string/copyright" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="38dp"
+
+        android:layout_marginRight="16dp"
+        android:autoText="false"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/paragraph_aboutUs"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/insta"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginBottom="55dp"
+        app:srcCompat="@drawable/instagram" />
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="170dp"
+
+        android:layout_marginTop="560dp"
+        android:layout_marginBottom="55dp"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginBottom="55dp"
+        app:srcCompat="@drawable/twitter" />
+</RelativeLayout>

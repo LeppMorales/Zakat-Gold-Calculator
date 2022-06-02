@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75DFD7"
+    android:foregroundTint="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/mainPage"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="367dp"
+        android:layout_marginTop="110dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/goldtradecash" />
+
+    <Button
+        android:id="@+id/btnAboutUs"
+        android:layout_width="121dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="410dp"
+        android:backgroundTint="#A0C575"
+        android:fontFamily="sans-serif-black"
+        android:includeFontPadding="false"
+        android:text="About Us"
+        android:textColor="#000000"
+        app:iconTint="#FF0000" />
+
+    <Button
+        android:id="@+id/btnCalHomepage"
+        android:layout_width="135dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="410dp"
+        android:backgroundTint="#A0C575"
+        android:fontFamily="sans-serif-black"
+        android:text="Calculator"
+        android:textColor="#000000" />
+
+</RelativeLayout>

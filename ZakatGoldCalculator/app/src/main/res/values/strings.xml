@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ZakatGoldCalculator</string>
+    <string name="home">Home</string>
+    <string name="about_us">About Us</string>
+    <string name="calculator">Calculator</string>
+    <string name="copyright">Copyright &#169; 2022 Anas &amp; Alif.Corp</string>
+    <string name="mainPage">Welcome to our first Mobile Application.</string>
+    <string name="paragraph_aboutUs">This is our "About Us " page. This page will tell the purpose of this mobile application that is to calculate the estimate zakat payment for gold keeping. The user will input the weight, type of gold and the current gold value. The output is total value of gold, total gold value that is zakat payable and the total zakat. This mobile application will calculate and will output the result to the user. This also the first project that have been given by our lecturer to implement what we have learn in class.</string>
+
+</resources>
